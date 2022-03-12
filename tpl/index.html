@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <style>
+        html.dark {
+            --w-e-textarea-bg-color: #333;
+            --w-e-textarea-color: #fff;
+            --w-e-toolbar-color: #fff;
+            --w-e-toolbar-bg-color: #595959;
+            /* ...others... */
+        }
+    </style>
+</head>
+<body>
+    <p>demo</p>
+    <button id="btn-1">click</button>
+    <button id="btn-2">gen html</button>
+    <button id="btn-toggle-theme">切换主题</button>
+
+    <div>
+        <div id="toolbar-container-1" style="border: 1px solid #ccc; border-bottom: none;"></div>
+        <div id="editor-container-1" style="border: 1px solid #ccc; height: 400px;"></div>
+    </div>
+
+    <!-- <hr>
+    <div id="div1"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/wangeditor@latest/dist/wangEditor.min.js"></script>
+    <script>
+        const E = window.wangEditor
+        const editor = new E('#div1')
+        // 或者 const editor = new E( document.getElementById('div1') )
+        editor.create()
+    </script> -->
+
+    <script>
+        // 切换主题
+        document.getElementById('btn-toggle-theme').addEventListener('mousedown', e => {
+            e.preventDefault()
+            e.stopPropagation()
+
+            const html = document.getElementsByTagName('html')[0]
+            if (html == null) return
+
+            const curClass = html.getAttribute('class')
+            if (curClass) {
+                html.removeAttribute('class')
+            } else {
+                html.setAttribute('class', 'dark')
+            }
+        })
+    </script>
+</body>
+</html>
