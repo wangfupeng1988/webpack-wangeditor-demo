@@ -36,13 +36,13 @@
   },
   "dependencies": {
     "@wangeditor/core": "^0.14.8",
-    "@wangeditor/editor": "^0.15.7",
+    "@wangeditor/editor": "^0.15.14",
     "@wangeditor/plugin-ctrl-enter": "^1.0.9",
-    "@wangeditor/plugin-formula": "^1.0.7",
+    "@wangeditor/plugin-formula": "^1.0.8",
     "@wangeditor/plugin-link-card": "^0.0.4",
     "@wangeditor/plugin-md": "^0.0.4",
     "@wangeditor/plugin-mention": "^0.0.5",
-    "@wangeditor/plugin-upload-attachment": "^0.0.3",
+    "@wangeditor/plugin-upload-attachment": "^0.0.4",
     "katex": "^0.15.2"
   },
   "peerDependencies": {
