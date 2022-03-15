@@ -48,8 +48,12 @@ const editorConfig: Partial<IEditorConfig> = {
         formula: {
             menuKeys: [
                 'editFormula', // “编辑公式”菜单
-                'downloadAttachment', // “下载附件”菜单
             ],
+        },
+        attachment: {
+            menuKeys: [
+                'downloadAttachment', // “下载附件”菜单
+            ]
         },
         link: {
             menuKeys: ['editLink', 'unLink', 'viewLink', 'convertToLinkCard'], // 增加 '转为链接卡片'菜单

@@ -1075,38 +1075,38 @@
   resolved "https://registry.yarnpkg.com/@wangeditor/list-module/-/list-module-0.9.3.tgz#b38bd0ede85dc1eb2d8d7fdb6f740d12a72999b3"
   integrity sha512-bj4PpFVqk63gA8QLdwESfZGUT/VSuFqv/JVYURqporlkiq3s+kalJwcl5Gu4ZViS21Ibaw3m8jHQjJMJW8nfRA==
 
-"@wangeditor/plugin-ctrl-enter@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-ctrl-enter/-/plugin-ctrl-enter-1.0.7.tgz#6be540eefae2f166573ceaebbf9cdd083844ec93"
-  integrity sha512-b8+ccakLYaz/ApB3zwVUg7lmknKHH5eqTyYxZbjcNKabX8f8aI/k8vGBBGn6US8axq0wuip0xdfVPy3xtpQCrQ==
+"@wangeditor/plugin-ctrl-enter@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-ctrl-enter/-/plugin-ctrl-enter-1.0.9.tgz#ea2e3247b88a3688a319dbcb5ed57ecb149008d2"
+  integrity sha512-+sxFiQBGKWEs5e3T4aIST4TOy/SW5UUX1oiLzTtWE1Dr+3ylU/qSxQ/CFvRi7ipDHp6kmA7i6Y8aSzcqoVwCqA==
 
-"@wangeditor/plugin-formula@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-formula/-/plugin-formula-1.0.5.tgz#9d6c90fd6dbf88a48384984692b62fdf93722558"
-  integrity sha512-mG/HIARih61VtB/ASjmmt+yI/taBf1VGCl0Mj24zxBvJ+sRm6y+Pao4+lDok10biu3J4TvK1I+NM3zny5xVYAQ==
+"@wangeditor/plugin-formula@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-formula/-/plugin-formula-1.0.7.tgz#49ad3dbcda8560665737cf17f67da9024fc1e9eb"
+  integrity sha512-og1LWKPtPOAmepLZo+pVUSSaU3G0rheX49yvLglN7Az4JSTIPC1h8utaG9SCLeKbeukiPajkZz3W60rkY9+RxA==
   dependencies:
     dom7 "^4.0.4"
     nanoid "^3.2.0"
 
-"@wangeditor/plugin-link-card@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-link-card/-/plugin-link-card-0.0.2.tgz#d9eccfc8adf636828f6db9c0bd17fd143999c328"
-  integrity sha512-5lLt9p7r2H/aW3CXeRgw84zBwA3HN68VWUQfatIoGQsJm1NmlbjKqJIgUjb/dLHie0YbK7CRspNMWHEwTb5/Jg==
+"@wangeditor/plugin-link-card@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-link-card/-/plugin-link-card-0.0.4.tgz#f9a1ece4914da2f94cdbae4ede74292b0cc63895"
+  integrity sha512-m9Kfg5WUzIAgGO12ldQ3VsC+Bu+Xk/RKp25M2xWDrblp81fy0ioq/izDYzxd7bZ7aM+XBPgfhUue8aCul6xkSQ==
 
-"@wangeditor/plugin-md@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-md/-/plugin-md-0.0.2.tgz#f2c568c9cba4926a06fcac5db6ac107551e4f369"
-  integrity sha512-Rm9zK5R536tnF+iSSLWDPEJ6kjWowWlNKXonGXsEqiFSnM/bGep0OHK2kMhbh8xL7feJEEhVazkTbZ75WyQAOw==
+"@wangeditor/plugin-md@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-md/-/plugin-md-0.0.4.tgz#7a6ea8c246305edfd19303e08451443b7ec1c3b1"
+  integrity sha512-q2CRUPk2ukKVhZWcLA8nxA4qb0GVdPHszst0AXAu+hf5aoJkaUkGTDSlsou7eET7sqvc1yni1aUzo0itLm1EiA==
 
-"@wangeditor/plugin-mention@^0.0.3":
+"@wangeditor/plugin-mention@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-mention/-/plugin-mention-0.0.5.tgz#5d89e49629cb96465bed0b14d0a8413303511ee8"
+  integrity sha512-Q7vby5n468MTFnuM2JET+f76iDHIdwZvdmz0MrbihyOWBQYaZRLaVy5cBQ656/mthqULinaBsiKF4jNB2sv8Zw==
+
+"@wangeditor/plugin-upload-attachment@^0.0.3":
   version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-mention/-/plugin-mention-0.0.3.tgz#28f4a501e8acdfac3903ad7d6b6b5bc20b16efeb"
-  integrity sha512-0ef84KGfly/M9Y7PkSpwvebrJcc6wecxhAul6OA9Vs5nwLTyUGtyRb+bP7S6nUqFS4aDQjgkrRZNBZApNmRWjA==
-
-"@wangeditor/plugin-upload-attachment@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-upload-attachment/-/plugin-upload-attachment-0.0.1.tgz#b104f4436e5d268629dff33d83e1495d318fe7e5"
-  integrity sha512-iEsuRBPL5wWhvwELu1Kypvu+119+hOwdzWVEH5zD2IMeXD8jLYU+OQXqT/qrcTw26wazuxF1J0G/QLKKVVV2vQ==
+  resolved "https://registry.yarnpkg.com/@wangeditor/plugin-upload-attachment/-/plugin-upload-attachment-0.0.3.tgz#97dbedaf08afd7b12be896ac2f770f200fbdaa00"
+  integrity sha512-ZfZg0wocJvVYiBVneby9pv3yQsxFoEyxNlDVyDG2/MBTxL90soK+wdMK89qyvSP9EkJSwL7gxb2Qr5N1gg9RdQ==
   dependencies:
     dom7 "^4.0.4"
 
@@ -2878,13 +2878,6 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-
-i18next@^20.3.4:
-  version "20.3.4"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-20.3.4.tgz#5e05524a8baa17bbf99b89cdb427d3a68406aa64"
-  integrity sha512-xj3A2tGvwdWI1QBDKKFLOT/n4QImm+tN8QvHBIaTU/zN4YWK1NlpWPZN6mKzd3G1Wd7J1jU5BkFeaKQWHpf05w==
-  dependencies:
-    "@babel/runtime" "^7.12.0"
 
 i18next@^20.4.0:
   version "20.4.0"
