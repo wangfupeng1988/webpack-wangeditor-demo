@@ -35,8 +35,8 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "@wangeditor/core": "^0.14.16",
-    "@wangeditor/editor": "^0.15.17",
+    "@wangeditor/core": "^1.0.0",
+    "@wangeditor/editor": "^5.0.0",
     "@wangeditor/plugin-ctrl-enter": "^1.1.1",
     "@wangeditor/plugin-formula": "^1.0.9",
     "@wangeditor/plugin-link-card": "^0.0.5",
